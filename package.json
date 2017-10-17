@@ -1,0 +1,33 @@
+{
+  "name": "ls",
+  "version": "0.0.1",
+  "description": "myself",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Huyaguang"
+  },
+  "keywords": [
+    "huyaguang"
+  ],
+  "author": "huyaguang",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "compression": "^1.6.0",
+    "connect-flash": "^0.1.1",
+    "express": "^4.13.3",
+    "express-session": "^1.12.1",
+    "filendir": "^1.0.0",
+    "iap": "^0.5.0",
+    "iconv-lite": "0.4.13",
+    "method-override": "^2.3.5",
+    "multer": "^1.1.0",
+    "node-uuid": "^1.4.7",
+    "nodemailer": "^1.11.0",
+    "morgan": "^1.6.1"
+  }
+}

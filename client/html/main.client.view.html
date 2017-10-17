@@ -1,0 +1,225 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>长风设计实验室</title>
+        <link rel="stylesheet" media="all" href="/public/css/style_1.css" data-turbolinks-track="reload" />
+        <link rel="stylesheet" href="/public/css/style_2.css">
+        <link href="/public/css/style_3.css" rel="stylesheet" />
+        <script src="/public/lib/jquery/dist/jquery.min.js"></script>
+        <!-- <link rel="shortcut icon" type="image/x-icon" href="public/img/icon.png" /> -->
+        <script defer src="/client/js/mdb.min.js"></script>
+        <script src="/client/js/select2.min.js"></script>
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-dark bg-primary" style="background-color: #3F87FF; padding: 8px;">
+        <div class="">
+        <!--Navbar Brand-->
+        <a class="navbar-brand" href="/">
+        <img src="http://www.jobly.io/assets/jobly-logo-white-d9bbc3341fce9e630fb193de72e0cfa1032c6722944cb9a7445acc0182f27a68.svg" />
+</a>      <!--Links-->
+      <ul class="nav navbar-nav" style="float:right;">
+          <li class="nav-item" href=""> <a href="/users/sign_in">Login</a> </li>
+          <li class="nav-item" href=""> <a href="/users/sign_up">Sign Up</a> </li>
+      </ul>
+  </div>
+</nav>
+
+
+    <div class="app">
+      <div class="container-fluid landing-page">
+  <div class="row text-center home-top">
+    <h1>The Affordable Careers Page</h1>
+    <h3>Starting at $9/month</h3>
+    <a class="btn btn-primary" href="/users/sign_up">Start 14 Day Free Trial</a><br />
+  </div>
+
+  <div class="row text-center home-big-img">
+    <div class="col-md-8 col-md-offset-2">
+      <img src="http://www.jobly.io/assets/jobly-carrers-page-67c6abf5c6e76fa2f7e41bb1dc437edceb42b684d240e3d114f90c7f3ae7e446.png" class="img-fluid" />
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+      <div class="col-md-4 home-box-container">
+        <div class="home-box">
+          <img src="http://www.jobly.io/assets/create-61f14be7c88043932c5f20e08a950242154df4fc92a05fee11d82491cce9cea3.png" class="home-box-img" />
+          <h4>Create Job Listings</h4>
+          <p>Publish job listings to your careers page. Organize your jobs by department, location, and employment type.</p>
+        </div>
+      </div>
+      <div class="col-md-4 home-box-container">
+        <div class="home-box">
+          <img src="http://www.jobly.io/assets/branded-8d1ce6e0bf5697807468cb174bf3d71649fcffb8ece098905142e0adfff73efe.png" class="home-box-img" />
+          <h4>Branded Career Page</h4>
+          <p>Add your logo and get a beautifully designed careers page for your website. No more custom coding or overly expensive services.</p>
+        </div>
+      </div>
+      <div class="col-md-4 home-box-container">
+        <div class="home-box">
+          <img src="http://www.jobly.io/assets/review-d6e12b41013844e3368c68b0114efce9902bda49b66159a4053ce71efdbe7b91.png" class="home-box-img" />
+          <h4>Review Applicants</h4>
+          <p>Easily reviews applicants for each job in one place. Much more efficient than using email or spreadsheets.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row easily-create-container">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="col-md-5 col-sm-8 home-easily-create">
+        <h3>Easily create, edit, and publish jobs</h3>
+        <p>Welcome to the Jobly dashboard. Here you can easily create, edit, and remove jobs and/or departments.</p>
+        <a class="btn btn-primary" href="/users/sign_up">GET STARTED</a><br />
+      </div>
+      <div class="col-md-7">
+        <img src="http://www.jobly.io/assets/jobly-dashboard-09f9f984e7ee47b61a8d131a3a69b7cb471a0c39680594c7f1e8c1e8af1d8bd7.png" class="home-big-img img-fluid" />
+      </div>
+    </div>
+  </div>
+
+  <div class="row text-center">
+    <h3>Pricing Options</h3>
+    <p>14 Day Free Trial. No credit card required</p>
+  </div>
+<br /><br />
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+      <div class="col-md-4 home-box-container">
+        <div class="home-box">
+          <h5>BASIC</h5>
+          <h4>$9<span>/mo</span></h4>
+          <span>
+            <b>3</b> job slots <br />
+            Standard Support
+          </span>
+          <a class="btn btn-primary" href="/users/sign_up">START TRIAL</a><br />
+        </div>
+      </div>
+      <div class="col-md-4 home-box-container">
+        <div class="home-box">
+          <h5>STANDARD</h5>
+          <h4>$19<span>/mo</span></h4>
+          <span>
+            <b>12</b> job slots <br />
+            Standard Support
+          </span>
+          <a class="btn btn-primary" href="/users/sign_up">START TRIAL</a><br />
+        </div>
+      </div>
+      <div class="col-md-4 home-box-container">
+        <div class="home-box">
+          <h5>Premium</h5>
+          <h4>$49<span>/mo</span></h4>
+          <span>
+            <b>Unlimited</b> job slots <br />
+            Premium Support
+          </span>
+          <a class="btn btn-primary" href="/users/sign_up">START TRIAL</a><br />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row text-center faq-header">
+    <h3>Frequently Asked Questions</h3>
+  </div>
+
+  <div class="row home-faq">
+    <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
+      <div class="row">
+        <div class="col-md-6 faq-item">
+          <div>
+  <h4>How does the 14 day trial work?</h5>
+  <p>No credit card is required. At the end of the trial you will have the option to continue using Jobly by paying via credit card.</p>
+</div>
+
+
+        </div>
+        <div class="col-md-6 faq-item">
+          <div>
+  <h4>Can I cancel my plan anytime?</h5>
+  <p>Yes, there is no contract and no obligation. Jobly is a month to month service so use us when you need to hire and turn us off when you don’t.</p>
+</div>
+
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 faq-item">
+          <div>
+  <h4>How do I integrate Jobly into my site?</h5>
+  <p>We provide a URL that you can link to from your website (ex: jobs.jobly.io/companyname) so that you can get started hiring in minutes and don’t need to worry about hosting.</p>
+</div>
+
+
+        </div>
+        <div class="col-md-6 faq-item">
+          <div>
+  <h4>Can I change from one plan to another?</h5>
+  <p>Yes, change at any time and the new price will be reflected in your next billing cycle.</p>
+</div>
+
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 faq-item">
+          <div>
+  <h4>Can I choose any plan for my free trial?</h5>
+  <p>Absolutely! We are confident that you will love our product so we encourage you to use whichever plan is best for you. After your trial ends, you can easily upgrade or downgrade to other plans.</p>
+</div>
+
+
+        </div>
+        <div class="col-md-6 faq-item">
+          <div>
+  <h4>What if I go over my plan&#39;s limits?</h5>
+  <p>You won’t be able to add more job postings than your plan allows so there is no need to worry about being over-billed. </p>
+</div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row text-center grey-background">
+    <h2>Get Started Today, 14 day Free Trial</h2>
+    <a class="btn btn-primary" href="/users/sign_up">Start Free Trial</a><br />
+  </div>
+
+</div>
+
+
+
+
+<footer>
+  <div>
+    &#x24B8; 2017 Jobly, LLC
+  </div>
+  <div>
+    <a href="/terms">Privacy &amp; Terms</a>
+    &nbsp;
+    &middot;
+    &nbsp;
+    <a href="mailto:support@jobly.io">Contact</a>
+  </div>
+
+  <div class="social-icons">
+    <a href="https://twitter.com/gojobly" target="_blank"><i class="fa fa-twitter"></i></a>
+    <a href="https://www.facebook.com/gojobly" target="_blank"><i class="fa fa-facebook"></i></a>
+  </div>
+</footer>
+
+    </div>
+
+
+
+  </body>
+</html>
+
